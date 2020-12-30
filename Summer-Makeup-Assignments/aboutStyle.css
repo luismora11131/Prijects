@@ -1,0 +1,153 @@
+#mainLinks {
+    margin: auto;
+    position: relative;
+    width: 600px; /* or whatever width */
+  }
+  
+  /* Edit image text overlay */
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  #top {
+    position: absolute;
+    top: 8px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35%;
+    font-size: 40px;
+    opacity: 0.9;
+  }
+  
+  #rona {
+    border-radius: 35%;
+    box-shadow: 5px 15px 50px 2px silver;
+    box-shadow: inset; /* adds a shadow */
+    width: 90%;
+    display: inline-block;
+  }
+  
+  /* end of image edit */
+  
+  /* nav styles */
+  #navigationBar {
+    border: black;
+    /* padding: 1px; */
+  }
+  
+  a {
+    text-decoration: none;
+    color: gold;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  .navigationBar ul li:hover {
+    /* this is to change the color of the box in the nav links*/
+    background-color: rgb(60, 117, 223);
+  
+    opacity: 0.7;
+  }
+  
+  nav {
+    background: black;
+    width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 5px;
+    text-transform: uppercase;
+    border-right: 1px solid white;
+    padding-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    border: none;
+  }
+  /* nav styles end */
+  
+  .linkCenter {
+    /* Link borders */
+    border: 2px black solid;
+    /* Change color */
+    color: #ff0000;
+  }
+  
+  #mainbody {
+    margin: 0;
+    border: 2px solid black;
+    font-family: latha, "Times New Roman", Times, serif;
+    color: black;
+    border: 20px paleturquoise solid;
+    /* background-color: black ; */
+    background-image: linear-gradient(to bottom right, black, grey);
+    background-size: cover;
+  
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-color: yellow; */
+    /* background-image: url("rona.jpg") no-repeat; */
+    /* background-size: cover;
+        background-attachment: fixed; */
+  
+    /* -webkit-text-size-adjust: 100%; */
+    /* transition: all .2s ease;
+        vertical-align: middle; */
+    height: 100%;
+  }
+  
+  #mainfooter {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* background-color: rgb(233, 201, 19); */
+    border-top: 4px rgb(128, 170, 170) solid;
+    /* border-radius: 25px;
+        background: blue; */
+  
+    background: silver;
+  }
+  
+  /* Sets the site size to screens */
+  html {
+    height: 100%;
+  }
+  
+  .text {
+    align-self: flex-end;
+  
+    /* border-radius: 20px; */
+    border-radius: 10%;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: white;
+    width: center;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* #subbody {
+        border-bottom: 2px black solid;
+    } */
